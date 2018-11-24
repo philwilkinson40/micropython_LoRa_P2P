@@ -15,10 +15,18 @@ after a few false starts this is an attempt to get LoRa communications workign f
 
 on the Micropython front
 - [Wei's original micropython driver](https://github.com/Wei1234c/SX127x_driver_for_MicroPython_on_ESP8266)
-- [fork of Wei's work for the TTGO](https://github.com/rcludwick/Lora_driver_for_MicroPython_on_ttgo), a similar board to the Heltec
+- [fork of Wei's work for the TTGO](https://github.com/rcludwick/Lora_driver_for_MicroPython_on_ttgo), a similar board to the Heltecp
 - 
 
 # support material
 
 - [Dave's tech notes](https://www.youtube.com/watch?v=0xP1h1Qx4Ao) gives a step by step intro (Arduino)
 - [Andreas video](https://www.youtube.com/watch?v=WV_VumvI-0A) is also a great overview tutorial (Arduino)
+
+
+# Stage 1
+Make sure the transievers actually work!  
+2018-11-24 Tested the Heltec dev boards with their [Arduino library](https://github.com/Heltec-Aaron-Lee/WiFi_Kit_series#instructions)
+Sending and recieving at 915MHz was achieved. 
+
+![](first_transmission.jpg) 
