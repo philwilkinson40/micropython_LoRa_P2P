@@ -39,7 +39,7 @@ Wei used a Node MCU
 
   ![](nodemcu_pins.gif)
 
-we are using a Wemos D1 Mini
+we are using a Wemos D1 Mini  
   WeMos D1          RFM9x Module  
   GPIO12 (D6) <----> MISO  
   GPIO13 (D7) <----> MOSI  
