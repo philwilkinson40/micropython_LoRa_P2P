@@ -22,6 +22,7 @@ on the Micropython front
 
 - [Dave's tech notes](https://www.youtube.com/watch?v=0xP1h1Qx4Ao) gives a step by step intro (Arduino)
 - [Andreas video](https://www.youtube.com/watch?v=WV_VumvI-0A) is also a great overview tutorial (Arduino)
+- [Fernando's excellent series on LoRa](https://www.instructables.com/id/ESP32-Lora-Changing-Frequency/) (also Arduino!)
 
 
 # Stage 1
@@ -30,3 +31,21 @@ Make sure the transievers actually work!
 Sending and recieving at 915MHz was achieved. 
 
 ![](first_transmission.jpg) 
+
+# Stage 2
+attempt to map Wei's library
+
+Wei used a Node MCU
+
+  ![](nodemcu_pins.gif)
+
+we are using a Wemos D1 Mini
+  WeMos D1          RFM9x Module  
+  GPIO12 (D6) <----> MISO  
+  GPIO13 (D7) <----> MOSI  
+  GPIO14 (D5) <----> CLK  
+  GPIO15 (D8) <----> DIO0/D2 OR DIO1/D3 OR DIO2/D4  
+  GPIO02 (D4) <----> SEL (Chip Select)  
+  RST         <----> RST  
+
+
