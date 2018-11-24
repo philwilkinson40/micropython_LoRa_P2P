@@ -40,12 +40,13 @@ Wei used a Node MCU
   ![](nodemcu_pins.gif)
 
 we are using a Wemos D1 Mini  
-  WeMos D1          RFM9x Module  
+  WeMos D1    <----> RFM9x Module  
   GPIO12 (D6) <----> MISO  
   GPIO13 (D7) <----> MOSI  
   GPIO14 (D5) <----> CLK  
   GPIO15 (D8) <----> DIO0/D2 OR DIO1/D3 OR DIO2/D4  
   GPIO02 (D4) <----> SEL (Chip Select)  
   RST         <----> RST  
+
 
 
