@@ -5,15 +5,15 @@ import controller
 
 class Controller(controller.Controller):
 
-    # LoRa config
-    PIN_ID_FOR_LORA_RESET = 4 
+    # LoRa config modified for WEMOS shield
+    PIN_ID_FOR_LORA_RESET = 4 #unsure how to use RST pin
 
-    PIN_ID_FOR_LORA_SS = 15
+    PIN_ID_FOR_LORA_SS = 2 #not 15
     PIN_ID_SCK = 14 
     PIN_ID_MOSI = 13 
     PIN_ID_MISO = 12 
 
-    PIN_ID_FOR_LORA_DIO0 = 5 
+    PIN_ID_FOR_LORA_DIO0 = 15 #not 5 
     PIN_ID_FOR_LORA_DIO1 = None 
     PIN_ID_FOR_LORA_DIO2 = None 
     PIN_ID_FOR_LORA_DIO3 = None

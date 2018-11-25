@@ -48,5 +48,11 @@ we are using a Wemos D1 Mini
   GPIO02 (D4) <----> SEL (Chip Select)  
   RST         <----> RST  
 
-
+verified
+- config_lora.py
+- controller_esp.py unclear reset Pin allocation
+- sx127x.py only adjusted freq 
+ 
+to do  
+- 
 
